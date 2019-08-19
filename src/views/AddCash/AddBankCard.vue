@@ -13,7 +13,7 @@
                 </div>
                 <div class="customer-name">
                     <div class="verify-number">
-                        <input class="addcard-input" type="text" name="text" placeholder="Username" required>
+                        <input class="addcard-input" type="text" name="text" placeholder="Card Name" required>
                     </div>
                     <div class="expiry-label">
                         <p>Expiry MM/YY</p>
@@ -37,7 +37,7 @@
 
 
                 <div class="add-card-button">
-                    <router-link to="WalletBalance"><button class="addcard-btn">Add Card</button></router-link>
+                    <router-link to="MyCard"><button class="addcard-btn">Add Card</button></router-link>
                     <div class="key-lock">
                         <img src="../../assets/images/key-white.svg" >
                     </div>

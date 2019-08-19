@@ -1,5 +1,5 @@
 <template>
-    <div class="view-okike-food animated">
+    <div class="view-okike-food ">
         <div class="food-overlay">
             <div class="upper-menu">
                 <div class="back-btn">
@@ -25,7 +25,6 @@
                     <b-tabs card>
                         <b-tab no-body title="Abacha">
                             <div class="food-promo-today"  >
-                                <div class="black_dot"></div>
                                 <div class="locate-user">
                                     <img src="../../assets/images/search-icon.svg">
                                     <input class="input-location" type="text" name="location" placeholder="Search your food">
@@ -84,7 +83,7 @@
                         </b-tab>
                         <b-tab no-body title="Boli">
                             <div class="food-promo-today"  >
-                                <div class="black_dot"></div>
+                                <!--<div class="black_dot"></div>-->
                                 <div class="locate-user">
                                     <img src="../../assets/images/search-icon.svg">
                                     <input class="input-location" type="text" name="location" placeholder="Search your food">
@@ -143,7 +142,6 @@
                         </b-tab>
                         <b-tab no-body title="Drinks">
                             <div class="food-promo-today"  >
-                                <div class="black_dot"></div>
                                 <div class="locate-user">
                                     <img src="../../assets/images/search-icon.svg">
                                     <input class="input-location" type="text" name="location" placeholder="Search your food">
@@ -202,7 +200,6 @@
                         </b-tab>
                         <b-tab no-body title="Achicha">
                             <div class="food-promo-today"  >
-                                <div class="black_dot"></div>
                                 <div class="locate-user">
                                     <img src="../../assets/images/search-icon.svg">
                                     <input class="input-location" type="text" name="location" placeholder="Search your food">
@@ -261,7 +258,6 @@
                         </b-tab>
                         <b-tab no-body title="Okpa">
                             <div class="food-promo-today"  >
-                                <div class="black_dot"></div>
                                 <div class="locate-user">
                                     <img src="../../assets/images/search-icon.svg">
                                     <input class="input-location" type="text" name="location" placeholder="Search your food">

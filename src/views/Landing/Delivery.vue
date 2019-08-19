@@ -11,16 +11,23 @@
             <div class="mastercard_flex">
                 <div class="mastercard-input-box">
 
-                    <div class="mb-3">
+                    <div class="mb-4">
                         <div class="select_state">Select State *</div>
-                        <input class="change-pin-input" type="text" placeholder="Lagos">
+                        <!--<input class="change-pin-input" type="text" placeholder="Select Location">-->
+                        <div class="">
+                            <select class="change-pin-input">
+                                <option value="lagos" class="state_option">Lagos</option>
+                                <option value="enugu" class="state_option">Enugu</option>
+                                <option value="abuja" class="state_option">Abuja</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-4">
                         <div class="select_state">Address/Location *</div>
-                        <input class="change-pin-input mb-1" type="text" placeholder="Address">
+                        <input class="change-pin-input mb-2" type="text" placeholder="Address">
                         <input class="change-pin-input" type="text" placeholder="Local Government">
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-4">
                         <div class="select_state">Phone Number</div>
                         <input class="change-pin-input" type="text" placeholder="090012345678">
                     </div>
@@ -38,8 +45,12 @@
 
 <script>
     export default {
-        name: "Delivery.vue"
+        name: "Delivery.vue",
+            methods:{
+
+        }
     }
+
 </script>
 
 <style scoped>
@@ -63,6 +74,11 @@
         font-size: 16px;
         color: #000000;
         font-weight: 800;
+        padding-bottom: 7px;
+    }
+    .state_option{
+        color: #ffffff;
+        padding: 10px;
     }
 
 </style>

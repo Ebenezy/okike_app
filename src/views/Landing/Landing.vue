@@ -73,45 +73,14 @@
                             </div>
                          </div>
                     </div>
-                    <!--</carousel>-->
-                    <!--<carousel :autoplay="true" :nav="false">-->
-                        <!--<template slot="prev"><span class="prev">prev</span></template>-->
-                        <!--<template slot="next"><span class="next">next</span></template>-->
-                    <!--</carousel>-->
                 </div>
 
-                <!--<div class="promo-today-slide">-->
-                    <!--<button class="tablinks" v-bind:class="{active: tab === 'cuisines'}" @click="tab = 'cuisines'">-->
-                        <!--Cuisines-->
-                    <!--</button>-->
-                    <!--<button class="tablinks" v-bind:class="{active: tab === 'abacha'}" @click="tab = 'abacha'">-->
-                        <!--Abacha-->
-                    <!--</button>-->
-
-                    <!--<vue-tabs></vue-tabs>-->
-                    <!--<button class="tablinks" v-bind:class="{active: tab === 'partners'}" @click="tab = 'achicha'">-->
-                        <!--Achicha-->
-                    <!--</button>-->
-                    <!--<button class="tablinks" v-bind:class="{active: tab === 'partners'}" @click="tab = 'okpa'">-->
-                        <!--Okpa-->
-                    <!--</button>-->
-                    <!--<button class="tablinks" v-bind:class="{active: tab === 'partners'}" @click="tab = 'utazi'">-->
-                        <!--Utazi-->
-                    <!--</button>-->
-                    <!--<button class="tablinks" v-bind:class="{active: tab === 'partners'}" @click="tab = 'okpa'">-->
-                        <!--Okpa-->
-                    <!--</button>-->
-                    <!--<button class="tablinks" v-bind:class="{active: tab === 'partners'}" @click="tab = 'utazi'">-->
-                        <!--Utazi-->
-                    <!--</button>-->
-                <!--</div>-->
                 <div >
                     <b-card no-body>
                         <b-tabs card class="okike-tab-card">
                             <b-tab no-body title="Cuisines" class="abacha-tab">
                                 <!--<b-card-img bottom src="https://picsum.photos/600/200/?image=21"></b-card-img>-->
                                 <div class="food-promo-today" id="cuisines" >
-                                    <div class="black_dot"></div>
                                     <div class="promo-today-slide">
                                         <div class="sliding-post">
                                             <div class="product_img">
@@ -169,7 +138,6 @@
 
                             <b-tab no-body title="Abacha" class="abacha-tab">
                                 <div class="food-promo-today" id="abacha" >
-                                    <div class="black_dot" ></div>
                                     <div class="promo-today-slide">
                                         <div class="sliding-post">
                                             <div class="product_img">
@@ -227,7 +195,6 @@
 
                             <b-tab no-body title="Achicha" class="abacha-tab">
                                 <div class="food-promo-today" id="achicha" >
-                                    <div class="black_dot" ></div>
                                     <div class="promo-today-slide">
                                         <div class="sliding-post">
                                             <div class="product_img">
@@ -285,7 +252,6 @@
 
                             <b-tab no-body title="Okpa" class="abacha-tab">
                                 <div class="food-promo-today" id="okpa" >
-                                    <div class="black_dot" ></div>
                                     <div class="promo-today-slide">
                                         <div class="sliding-post">
                                             <div class="product_img">
@@ -343,6 +309,7 @@
                         </b-tabs>
                     </b-card>
                 </div>
+                <div class="pb-5"></div>
                 <div class="fixed-bottom">
                     <div class="floating-menu-footer container">
                         <div class="menu-float ">

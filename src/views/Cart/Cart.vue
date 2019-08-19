@@ -10,10 +10,6 @@
             <div class="" style="width: 37px;"></div>
         </div>
 
-
-
-
-
         <div class="customize-food">
             <div class="food-card2">
                 <div class="food-name-price2">
@@ -179,7 +175,7 @@
         text-align: center;
     }
     .food-name-price2 h4{
-        font-family: LucidaGrande-Bold;
+        font-family: Avenir-Heavy;
         font-size: 20px;
         color: #3AA08E;
         letter-spacing: 0;
@@ -232,7 +228,7 @@
         margin-bottom: 0;
     }
     .cart-total h4{
-        font-family: LucidaGrande-Bold;
+        font-family: Avenir-Heavy;
         font-size: 20px;
         color: #3AA08E;
         letter-spacing: 0;

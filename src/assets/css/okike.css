@@ -636,8 +636,8 @@ a:hover, a:active, a:focus{
     height: 100vh;
     -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
-    -webkit-animation-name: fadeInLeft;
-    animation-name: fadeInLeft;
+    /*-webkit-animation-name: fadeInLeft;*/
+    /*animation-name: fadeInLeft;*/
 }
 .view-food-img img{
     width: 100%;
@@ -1065,6 +1065,8 @@ a:hover, a:active, a:focus{
     font-size: 18px !important;
     color: #000000 !important;
     letter-spacing: 0;
+    /*border-bottom: 1px solid #000000 !important;*/
+    margin-bottom: 10px !important;
 }
 .nav-tabs .nav-link {
     border: none;
