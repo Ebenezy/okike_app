@@ -1,6 +1,7 @@
 <template>
     <div class="view-okike-food ">
-        <div class="food-overlay">
+        <!--<div class="fixed-top">-->
+        <div class="food-overlay ">
             <div class="back-btn">
                 <a @click="$router.go(-1)"><img src="../../assets/images/back-btn.svg" ></a>
             </div>
@@ -9,9 +10,10 @@
             </div>
 
         </div>
-        <div class="view-food-img">
+        <div class="view-food-img ">
             <img src="../../assets/images/boli_view.jpg">
         </div>
+        <!--</div>-->
 
         <div class="food-selection">
             <div class="food-name-price">
@@ -63,7 +65,7 @@
                 </div>
             </div>
         </div>
-        <div class="fixed-bottom">
+        <div class="fixed-bottom bg-white">
             <div class="add-to-bag">
                 <router-link to="Cart">
                     <div class="add-to-bag-bg">

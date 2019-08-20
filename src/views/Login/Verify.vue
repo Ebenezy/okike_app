@@ -20,7 +20,7 @@
 </template>
 
 <script>
-    import { onboard } from '../../services/onboarding.service'
+    // import { onboard } from '../../services/onboarding.service'
     import router from "../../router";
 
 
@@ -45,5 +45,8 @@
 </script>
 
 <style scoped>
+    body{
+        background-color: #252525;
+    }
 
 </style>

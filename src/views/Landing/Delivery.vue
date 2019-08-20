@@ -32,7 +32,7 @@
                         <input class="change-pin-input" type="text" placeholder="090012345678">
                     </div>
                     <div class="">
-                        <router-link to=""><button class="addcash-btn">Submit</button></router-link>
+                        <router-link to="Confirmation"><button class="addcash-btn">Submit</button></router-link>
                     </div>
                 </div>
                 <div class="pw-key">
@@ -76,9 +76,25 @@
         font-weight: 800;
         padding-bottom: 7px;
     }
-    .state_option{
-        color: #ffffff;
-        padding: 10px;
+    /*.state_option{*/
+        /*color: #ffffff;*/
+        /*padding: 10px;*/
+    /*}*/
+    option{
+        font-size:18px;
+        color: #000000;
+        background-color:#ffffff;
+    }
+    option:before{
+        content: ">";
+        font-size:20px;
+        display:none;
+        padding-right:10px;
+        padding-left:5px;
+        color:#fff;
+    }
+    option:hover:before{
+        display:inline;
     }
 
 </style>

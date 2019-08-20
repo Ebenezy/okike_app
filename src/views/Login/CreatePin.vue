@@ -35,5 +35,8 @@
 </script>
 
 <style scoped>
+    body{
+        background-color: #252525;
+    }
 
 </style>

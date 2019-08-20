@@ -14,6 +14,7 @@ import ViewFood from './views/Landing/ViewFood.vue'
 import Delicacies from './views/Landing/Delicacies.vue'
 import Cart from './views/Cart/Cart.vue'
 import Delivery from './views/Landing/Delivery.vue'
+import Confirmation from './views/Landing/Confirmation.vue'
 import IntegerPlusminus from './components/IntegerPlusminus.vue'
 import Invite from './views/Invite/Invite.vue'
 import MyCard from './views/MyCard/MyCard.vue'
@@ -101,6 +102,11 @@ export default new Router({
           path: '/Delivery',
           name: 'Delivery',
           component: Delivery
+      },
+      {
+          path: '/Confirmation',
+          name: 'Confirmation',
+          component: Confirmation
       },
       {
           path: '/Menu',
