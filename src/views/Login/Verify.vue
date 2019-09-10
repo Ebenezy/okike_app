@@ -11,7 +11,7 @@
                     <p>An activation code will be sent to you<br> for verification.</p>
                 </div>
                 <div class="verify-number">
-                    <input class="verify-input" v-model="phone_number" type="text" name="text" placeholder="E.g 0801 234 5678" required>
+                    <input class="verify-input" v-model="phone_number" type="number" name="number" placeholder="E.g 0801 234 5678" required>
                     <button class="verify-btn" @click="onSubmit">Verify Number</button>
                 </div>
             </div>

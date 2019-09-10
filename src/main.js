@@ -17,6 +17,11 @@ import 'v-tab/dist/v-tab.css'
 //you can also import this in your style tag
 import 'vue-nav-tabs/themes/vue-tabs.css'
 import { TabsPlugin } from 'bootstrap-vue'
+
+import { VueperSlides, VueperSlide } from 'vueperslides'
+
+import 'vueperslides/dist/vueperslides.css'
+
 Vue.use(TabsPlugin)
 
 Vue.use(VTab)
@@ -43,14 +48,18 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false;
 ApiService.init('http://localhost:8000/api/v1');
 
+import {TheMask} from 'vue-the-mask'
+
 export {
     IntegerPlusminus
 }
 
 new Vue({
   router,
+    VueperSlides, VueperSlide,
     VueTyper,
     IntegerPlusminus,
+    TheMask,
     'vue-typer': VueTyper,
     carousel,
     VueTabs,

@@ -197,6 +197,12 @@ a:hover, a:active, a:focus{
     color: #FFFFFF;
     text-align: center;
 }
+.explore-txt h3 b{
+    font-family: Montserrat-Bold;
+    font-size: 34px;
+    color: #FFFFFF;
+    text-align: center;
+}
 .fontawesom{
     opacity: 1;
     color: #ffffff;
@@ -310,6 +316,7 @@ a:hover, a:active, a:focus{
     color: #FFFFFF;
     letter-spacing: 0;
     padding: 0.8rem 2.3rem;
+    width: 100%;
 }
 .login-with-btn2{
     background: rgba(0,0,0,0.25);
@@ -386,6 +393,9 @@ a:hover, a:active, a:focus{
 .verify-title p{
     font-size: 17px;
     font-family: 'Avenir LT Std 55 Roman';
+}
+.verify-number{
+    padding-bottom: 2rem;
 }
 .verify-input{
     border: none;
@@ -479,6 +489,7 @@ a:hover, a:active, a:focus{
     color: #FFFFFF;
     letter-spacing: 0.59px;
     text-align: center;
+    padding: 1rem 0;
 }
 .abacha-everywhere p{
     margin-bottom: 0;
@@ -490,6 +501,7 @@ a:hover, a:active, a:focus{
     color: #FFFFFF;
     letter-spacing: 0;
     text-align: center;
+    padding: 1rem 0;
 }
 .createpin-text p{
     margin-bottom: 0;
@@ -571,6 +583,8 @@ a:hover, a:active, a:focus{
     border-radius: 15px;
 }
 .product_img{
+    width: 145px;
+    height: 145px;
     border-radius: 15px;
 }
 .sliding-post img{
@@ -1095,6 +1109,9 @@ a:hover, a:active, a:focus{
 }
 .food-promo-today{
     padding-bottom: 1rem;
+}
+.modal{
+    height: 103% !important;
 }
 .modal.show .modal-dialog {
     -webkit-transform: none;

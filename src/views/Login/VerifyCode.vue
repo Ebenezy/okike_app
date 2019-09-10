@@ -11,7 +11,7 @@
                     <p>Please enter the activation code <br>sent via SMS.</p>
                 </div>
                 <div class="verify-number">
-                    <input class="verify-input2" type="text" v-model="otp" name="text" placeholder="Activation Code" required>
+                    <input class="verify-input2" type="number" v-model="otp" name="number" placeholder="Activation Code" required>
                     <button @click="onSubmit" class="verify-btn">Verify Number</button>
                 </div>
             </div>

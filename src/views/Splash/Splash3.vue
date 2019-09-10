@@ -1,4 +1,6 @@
 <template>
+    <!--<vueper-slides>-->
+        <!--<vueper-slide v-for="(slide, i) in slides" :key="i" :title="slide.title" :content="slide.content">-->
     <div class="okike-splash3">
         <div class="okike-splash3-inner">
             <div class="container okike-splash3-inner2">
@@ -7,7 +9,7 @@
                     <img src="../../assets/images/cash-icons.svg">
                 </div>
                 <div class="explore-txt">
-                    <h3>Explore your <br><b>African Taste</b>, <br>From the tips of <br>your <b>fingers</b></h3>
+                    <h3>Place <b>Order</b> <br><b>Receive</b> Order<br>Enjoy <b>Meal</b><br>Share <b>Experience</b></h3>
                 </div>
                 <div class="foot-note2">
                     <div class="typer-txt">
@@ -34,11 +36,24 @@
             </div>
         </div>
     </div>
+        <!--</vueper-slide>-->
+    <!--</vueper-slides>-->
 </template>
 
 <script>
+    // import { VueperSlides, VueperSlide } from 'vueperslides'
     export default {
-        name: "Splash3.vue"
+        name: "Splash3.vue",
+        // components: { VueperSlides, VueperSlide },
+        data: () => ({
+            slides: [
+                {
+                    title: 'Slide #1',
+                    content: 'Slide content.'
+                },
+
+            ]
+        })
     }
 </script>
 

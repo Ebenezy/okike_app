@@ -29,7 +29,7 @@
 
                         <b-modal id="modal-center" hide-footer hide-header centered class="fixed-bottom">
                             <h4 class="add_cash_title">Add Cash</h4>
-                            <router-link to="MyCard"><div class="my-card-bg">
+                            <router-link to="AddCash"><div class="my-card-bg">
                                 <div><img src="../../assets/images/card-green.svg"></div>
                                 <div>
                                     <h5>MASTERCARD***2345</h5>
